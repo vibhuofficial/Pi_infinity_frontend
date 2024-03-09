@@ -1,0 +1,88 @@
+.loginWrapper {
+  padding: 75px 0px;
+  background-image: linear-gradient(to right, #000a2b, #1ce8cd);
+}
+h3 {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 30px;
+}
+
+.loginWrapper .card {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+  padding: 35px;
+  overflow: hidden !important;
+  border: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-group {
+  padding: 15px 0px;
+  position: relative;
+}
+/* .signIn-form {
+    padding: 20px 0px;
+  } */
+.loginWrapper .card fieldset {
+  border-radius: 10px;
+}
+TextField {
+  padding: 5px 0px;
+}
+.loginWrapper .card .MuiFormLabel-root {
+  color: black;
+  font-size: 15px;
+}
+.loginWrapper .card .icon {
+  position: absolute;
+  top: 27px;
+  right: 10px;
+  z-index: 100;
+  min-width: 30px;
+  height: 30px;
+  width: 30px;
+  color: #ccc;
+  border-radius: 100%;
+}
+.loginWrapper .card .icon svg {
+  color: black;
+  opacity: 0.8;
+}
+.form-group .btn-in {
+  background-color: aquamarine;
+  color: black;
+  padding: 10px 0px;
+}
+p {
+  text-align: center;
+  font-size: 18px;
+}
+.signInOr button img {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  margin: 0px 20px;
+}
+.signInOr button {
+  padding: 10px 0px;
+  color: black;
+  font-size: 15px;
+}
+.link {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 530px) {
+  .loginWrapper .card {
+    width: 300px;
+    height: 510px;
+  }
+}
+
+.formLoader {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+}
